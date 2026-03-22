@@ -3,12 +3,6 @@ SELECT * FROM employee
 ORDER BY levels desc
 limit 1
 
-
---who is the senior most employee in jon title
-SELECT * FROM employee
-ORDER BY levels desc
-limit 1
-
 --which countries hvae the most invoices
 select COUNT(*) as c,billing_country
 from invoice
